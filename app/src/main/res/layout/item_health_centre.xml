@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="330dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        card_view:cardCornerRadius="9dp"
+        card_view:cardBackgroundColor="#e6d6ec"
+        android:layout_weight="0.23">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+            <ImageView
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:gravity="center"
+
+                android:id="@+id/healthCentre_image"
+
+                />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.94"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:layout_weight="0.44">
+
+                        <text.customization.MarigoldText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Name:"
+                            android:textColor="#000000"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:id="@+id/textView8" />
+
+                        <text.customization.Grenale_Itallic
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textColor="#287112"
+                            android:text="New Text"
+                            android:id="@+id/name" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.44">
+
+                        <text.customization.MarigoldText
+                            android:layout_width="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:layout_height="wrap_content"
+                            android:text="Area:"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:id="@+id/textView11" />
+
+                        <text.customization.Grenale_Itallic
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New Text"
+                            android:textStyle="bold"
+                            android:textColor="#287112"
+                            android:id="@+id/area" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="174dp"
+                    android:layout_height="84dp"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="0.51">
+
+                        <text.customization.MarigoldText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Type:"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:paddingRight="20dp"
+                            android:id="@+id/textView13" />
+
+                        <text.customization.Grenale_Itallic
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New Text"
+                            android:textStyle="bold"
+                            android:textColor="#287112"
+                            android:id="@+id/type" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="0.51">
+
+                        <text.customization.MarigoldText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Opening hours:"
+                            android:paddingRight="7dp"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:id="@+id/textView15" />
+
+                        <text.customization.Digital
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New Text"
+                            android:textStyle="bold"
+                            android:textColor="#540b0b"
+                            android:id="@+id/openinghours" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+</LinearLayout>

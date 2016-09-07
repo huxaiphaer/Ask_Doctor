@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#567cce"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.26"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.74"></RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.67"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.88">
+
+            <text.customization.Grenale
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Ask Doctor App"
+                android:textColor="#ffffff"
+
+                android:paddingBottom="30dp"
+                android:id="@+id/textView16"
+                android:layout_gravity="center_horizontal" />
+
+            <text.customization.Grenale_Itallic
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Version 1.0.1"
+                android:textColor="#ffffff"
+                android:paddingBottom="20dp"
+                android:id="@+id/textView17"
+                android:layout_gravity="center_horizontal" />
+
+            <huzykamz.jdhau.huzy.ask_doctor.RoundedImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/imageView3"
+                android:src="@drawable/ask_doctor_icon"
+                android:layout_gravity="center_horizontal" />
+
+            <text.customization.MarigoldText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="�2011-2017 Ask Doctor App Inc. "
+                android:id="@+id/textView18"
+                android:paddingTop="20dp"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal" />
+
+            <text.customization.Champagne
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="All rights reserved."
+                android:paddingTop="20dp"
+                android:textColor="#ffffff"
+                android:id="@+id/textView19"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.36"></LinearLayout>
+    </LinearLayout>
+</LinearLayout>

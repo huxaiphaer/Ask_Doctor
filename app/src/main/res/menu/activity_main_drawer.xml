@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+<item
+    android:title="Home">
+    <menu>
+        <item android:id="@+id/hospitals" android:icon="@drawable/healthcenter"
+            android:title="Health Centres" />
+
+        <item android:id="@+id/doctors" android:icon="@drawable/doctor"
+            android:title="Doctors" />
+
+        <item android:id="@+id/tips" android:icon="@drawable/healthcenternews"
+
+            android:title="Tips" />
+    </menu>
+</item>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+
+            <item android:id="@+id/contacts" android:icon="@drawable/contacts"
+                android:title="Contacts" />
+
+            <item android:id="@+id/about" android:icon="@drawable/about"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>
